@@ -3,3 +3,6 @@ End-to-end Olist e-commerce analytics project built with Microsoft Fabric, PySpa
 # Project Architecture
 
 This folder contains the architecture diagram for the Olist E-Commerce Analytics project built using Microsoft Fabric.
+# Notebooks
+
+This folder contains the PySpark notebooks used for data transformation and Gold-layer modeling.
