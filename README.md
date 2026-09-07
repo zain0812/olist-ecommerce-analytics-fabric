@@ -71,5 +71,43 @@ The Gold layer was designed as a star schema for analytics.
 - `fact_order_items`
 - `fact_payments`
 - `fact_reviews`
+
+- ## Power BI Analytics
+
+The Gold layer was connected to a Power BI Semantic Model.
+
+The semantic model contains relationships between the dimension and fact tables and provides the foundation for analytical reporting.
+
+![Semantic Model](powerbi/05_Semantic_Model_Relationships.png)
+
+## Key Measures
+
+The main DAX measures created for the report include:
+
+- Total Sales Amount
+- Total Orders
+- Total Customers
+- Average Order Value
+- Average Review Score
+- Total Payment Value
+
+## Dashboard
+
+The final Power BI dashboard provides an overview of:
+
+- Sales performance
+- Order volume
+- Customer metrics
+- Product categories
+- Seller performance
+- Payment methods
+- Order status
+- Customer review scores
+
+![Power BI Dashboard](powerbi/04_Power_BI_Dashboard.png)
+
+## Project Outcome
+
+The project demonstrates a complete data analytics workflow using Microsoft Fabric, from raw data ingestion and PySpark transformations to dimensional modeling, semantic modeling, DAX, and Power BI reporting.
 - Power BI Semantic Model
 - DAX
